@@ -1,0 +1,93 @@
+/* Add a background color to the page */
+body{
+  background-color: rgb(207, 207, 235);
+}
+
+/* Style the header */
+.header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #333333;
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  z-index: 100;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  align-items: center;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  z-index: 100;
+  padding: 10px;
+}
+
+/* Style the media links */
+.media-link{
+  height: 70px;
+  float: right;
+  margin-right: 20px;
+}
+
+/* Style the logo in the top left corner */
+#logo{
+  font-size: xx-large;
+  padding: 20px;
+}
+/* Style the links on the header */
+#links{
+  color:white;
+  text-decoration:none;
+  font-size: x-large;
+  padding: 20px;
+}
+
+/* Style the profile photo */
+#profilePhoto{
+    height: 400px;
+    float: right;
+    margin: 0px 10px 10px 10px;
+  }
+
+  /* Style the main section */
+main{
+    display: block;
+    padding: 90px 25px 80px 25px;
+    box-shadow: 0 0 24px -2px black;
+    color: rgb(18, 20, 22);
+    font-size: 30px;
+    margin: 20px 350px 0px 350px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+p{
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+#sectionTwo{
+    font-family: 'Satisfy', cursive;
+    color: rgb(43, 48, 51);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 100px;
+}
+
