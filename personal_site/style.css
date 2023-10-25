@@ -1,10 +1,10 @@
 /* Add a background color to the page */
-body{
+body {
   background-color: #c3e3eb;
 }
 
 /* Style the header */
-.header{
+.header {
   position: fixed;
   left: 0;
   right: 0;
@@ -20,7 +20,7 @@ body{
 }
 
 /* Style the footer */
-footer{
+footer {
   position: fixed;
   left: 0;
   right: 0;
@@ -35,80 +35,81 @@ footer{
 }
 
 /* Style the media links in the footer */
-.media-link{
+.media-link {
   height: 70px;
   float: right;
   margin-right: 20px;
 }
 
 /* Style the logo in the top left corner */
-#logo{
+#logo {
   font-size: xx-large;
   padding: 20px;
 }
 /* Style the links on the header */
-#links{
-  color:white;
+#links {
+  color: white;
   font-size: x-large;
   padding: 20px;
   text-decoration: none;
 }
 
 /* Style the profile photo in home page*/
-#profilePhoto{
-    height: 400px;
-    float: right;
-    margin: 0px 10px 10px 10px;
-  }
+#profilePhoto {
+  height: 400px;
+  float: right;
+  margin: 0px 10px 10px 10px;
+}
 
 /* Style the main section */
-main{
-    display: block;
-    padding: 90px 25px 80px 25px;
-    box-shadow: 0 0 24px -2px black;
-    color: rgb(206, 212, 218);
-    font-size: 30px;
-    margin: 20px 350px 0px 350px;
-    background-color: #061e45;
+main {
+  display: block;
+  padding: 90px 25px 80px 25px;
+  box-shadow: 0 0 24px -2px black;
+  color: rgb(206, 212, 218);
+  font-size: 30px;
+  margin: 20px 350px 0px 350px;
+  background-color: #061e45;
 }
 
 /* Style the description header in home page */
-h2{
-    font-size: 45px;
-    font-weight: bold;
-    margin: 20px 20px;
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 20px 20px;
 }
 
 /* Stryle paragraph in home page */
-p{
-    font-size: 28px;
-    margin: 20px 20px;
+p {
+  font-size: 28px;
+  margin: 20px 20px;
 }
 
 /* Style quote in home page */
-#sectionTwo{
-    font-family: 'Satisfy', cursive;
-    color: rgb(206, 212, 218);
-    font-size: 28px;
-    text-align: center;
-    margin-top: 150px;
-    padding-top: 100px;
+#sectionTwo {
+  font-family: "Satisfy", cursive;
+  color: rgb(206, 212, 218);
+  font-size: 28px;
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 100px;
 }
 
-/* Style header in about and portfolio page */
-#aboutHeader, #portfolioHeader{
+/* Style header in about and portfolio pages */
+#aboutHeader,
+#portfolioHeader {
   font-weight: 300;
   font-size: 35px;
   margin: 20px 0px;
 }
 
 /* Style sections in about page */
-.aboutSection{
+.aboutSection {
   border-top: 1px solid #bbb;
 }
 
 /* Style images in about page */
-.aboutSection img{
+.aboutSection img {
   height: 170px;
   float: right;
   margin-right: 24px;
@@ -116,33 +117,35 @@ p{
   margin-left: 24px;
 }
 
-/* Style image in the second section in about page */
-.aboutSection:nth-of-type(2n) img{
+/* Style image in the second section in about and portfolio pages */
+.aboutSection:nth-of-type(2n) img,
+.portfolioSection:nth-of-type(2n) img {
   height: 170px;
   float: left;
-  margin: 0px 24px 24px 0px
+  margin: 0px 24px 24px 0px;
 }
 
 /* Style section headings in about page */
-.aboutSection h2{
+.aboutSection h2 {
   font-size: 30px;
   margin: 20px 0px;
 }
 
-/* Style section paragraphs in about page */
-.aboutSection p{
+/* Style section paragraphs in about and portfolio pages */
+.aboutSection p,
+.portfolioSection p {
   font-size: 20px;
   margin: 20px 0px;
 }
 
 /* Style header in portfolio page */
-#portfolioHeader{
+#portfolioHeader {
   border-bottom: 1px solid #ccc;
   margin: 20px 0px;
 }
 
 /* Style the portfolio sections */
-.portfolioSection{
+.portfolioSection {
   background: #fafafa;
   color: #222;
   /* box-shadow: 0 3px 6px -2px #ccc; */
@@ -151,29 +154,16 @@ p{
 }
 
 /* Style the h2 in portfolio page */
-.portfolioSection h2{
+.portfolioSection h2 {
   font-size: 40px;
   margin: 0 0 32px;
   border-bottom: 2px solid #ccc;
 }
 
-/* Style section paragraphs in portfolio page */
-.portfolioSection p{
-  font-size: 20px;
-  margin: 20px 0px;
-}
-
 /* Style images in portfolio page */
-.portfolioSection img{
+.portfolioSection img {
   height: 170px;
   float: right;
   margin-bottom: 24px;
   margin-left: 24px;
-}
-
-/* Style image in the second section in portfolio page */
-.portfolioSection:nth-of-type(2n) img{
-  height: 170px;
-  float: left;
-  margin: 0px 24px 24px 0px
 }
