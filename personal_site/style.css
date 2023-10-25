@@ -74,14 +74,14 @@ main{
 
 /* Style the description header in home page */
 h2{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     margin: 20px 20px;
 }
 
 /* Stryle paragraph in home page */
 p{
-    font-size: 30px;
+    font-size: 28px;
     margin: 20px 20px;
 }
 
@@ -89,14 +89,14 @@ p{
 #sectionTwo{
     font-family: 'Satisfy', cursive;
     color: rgb(206, 212, 218);
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 150px;
     padding-top: 100px;
 }
 
-/* Style header in about page */
-#aboutHeader{
+/* Style header in about and portfolio page */
+#aboutHeader, #portfolioHeader{
   font-weight: 300;
   font-size: 35px;
   margin: 20px 0px;
@@ -135,5 +135,45 @@ p{
   margin: 20px 0px;
 }
 
+/* Style header in portfolio page */
+#portfolioHeader{
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0px;
+}
 
+/* Style the portfolio sections */
+.portfolioSection{
+  background: #fafafa;
+  color: #222;
+  /* box-shadow: 0 3px 6px -2px #ccc; */
+  margin: 30px 50px;
+  padding: 16px;
+}
 
+/* Style the h2 in portfolio page */
+.portfolioSection h2{
+  font-size: 40px;
+  margin: 0 0 32px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Style section paragraphs in portfolio page */
+.portfolioSection p{
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+/* Style images in portfolio page */
+.portfolioSection img{
+  height: 170px;
+  float: right;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+/* Style image in the second section in portfolio page */
+.portfolioSection:nth-of-type(2n) img{
+  height: 170px;
+  float: left;
+  margin: 0px 24px 24px 0px
+}
