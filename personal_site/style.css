@@ -1,6 +1,6 @@
 /* Add a background color to the page */
 body{
-  background-color: rgb(207, 207, 235);
+  background-color: #c3e3eb;
 }
 
 /* Style the header */
@@ -9,7 +9,7 @@ body{
   left: 0;
   right: 0;
   top: 0;
-  background-color: #333333;
+  background-color: #36454f;
   align-items: center;
   color: white;
   display: flex;
@@ -25,7 +25,7 @@ footer{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #333;
+  background-color: #36454f;
   align-items: center;
   display: flex;
   height: 75px;
@@ -34,7 +34,7 @@ footer{
   padding: 10px;
 }
 
-/* Style the media links */
+/* Style the media links in the footer */
 .media-link{
   height: 70px;
   float: right;
@@ -49,45 +49,91 @@ footer{
 /* Style the links on the header */
 #links{
   color:white;
-  text-decoration:none;
   font-size: x-large;
   padding: 20px;
+  text-decoration: none;
 }
 
-/* Style the profile photo */
+/* Style the profile photo in home page*/
 #profilePhoto{
     height: 400px;
     float: right;
     margin: 0px 10px 10px 10px;
   }
 
-  /* Style the main section */
+/* Style the main section */
 main{
     display: block;
     padding: 90px 25px 80px 25px;
     box-shadow: 0 0 24px -2px black;
-    color: rgb(18, 20, 22);
+    color: rgb(206, 212, 218);
     font-size: 30px;
     margin: 20px 350px 0px 350px;
+    background-color: #061e45;
 }
 
+/* Style the description header in home page */
 h2{
     font-size: 50px;
     font-weight: bold;
     margin: 20px 20px;
 }
 
+/* Stryle paragraph in home page */
 p{
     font-size: 30px;
     margin: 20px 20px;
 }
 
+/* Style quote in home page */
 #sectionTwo{
     font-family: 'Satisfy', cursive;
-    color: rgb(43, 48, 51);
+    color: rgb(206, 212, 218);
     font-size: 30px;
     text-align: center;
     margin-top: 4em;
     padding-top: 100px;
 }
+
+/* Style header in about page */
+#aboutHeader{
+  font-weight: 300;
+  font-size: 35px;
+  margin: 20px 0px;
+}
+
+/* Style sections in about page */
+.aboutSection{
+  border-top: 1px solid #bbb;
+}
+
+/* Style images in about page */
+.aboutSection img{
+  height: 170px;
+  float: right;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+/* Style image in the second section in about page */
+.aboutSection:nth-of-type(2n) img{
+  height: 170px;
+  float: left;
+  margin: 0px 24px 24px 0px
+}
+
+/* Style section headings in about page */
+.aboutSection h2{
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+/* Style section paragraphs in about page */
+.aboutSection p{
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+
 
