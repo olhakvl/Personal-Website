@@ -47,7 +47,14 @@ footer {
   padding: 20px;
 }
 /* Style the links on the header */
-#links {
+/* #links {
+  color: white;
+  font-size: x-large;
+  padding: 20px;
+  text-decoration: none;
+} */
+
+#links a{
   color: white;
   font-size: x-large;
   padding: 20px;
@@ -167,3 +174,6 @@ p {
   margin-bottom: 24px;
   margin-left: 24px;
 }
+
+/* Contact page styling */
+
