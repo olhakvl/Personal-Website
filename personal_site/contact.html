@@ -21,18 +21,40 @@
 
     <main>
         <h2>Contact Me</h2>
-        <form action="./submission.html">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="fName">
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lName">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <input type="submit" class="submit_btn">
+        <section id="form">
+            <form action="./submission.html" class="contactMe">
+                <div class="otherInfo">
+                    <!-- <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="fName">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lName"> -->
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fName">
+                </div>
+                <div class="otherInfo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="otherInfo">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="50" rows="8"></textarea>
+                </div>
+                <div class="otherInfo">
+                    <input type="submit" class="submit_btn" placeholder="SUBMIT">
+                </div>
 
-        </form>
+                <!-- <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="fName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lName"> -->
+                <!-- <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="submit_btn"> -->
+            </form>
+        </section>
+
       </main>
 
     <footer>
