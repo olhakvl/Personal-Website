@@ -71,7 +71,7 @@ footer {
 /* Style the main section */
 main {
   display: block;
-  padding: 90px 25px 80px 25px;
+  padding: 90px 25px 200px 25px;
   box-shadow: 0 0 24px -2px black;
   color: rgb(206, 212, 218);
   font-size: 30px;
@@ -184,7 +184,7 @@ p {
   "three"
   "four";
   gap: 20px;
-  align-items: stretch;
+  align-items:center;
   width: 100%;
 
 /* flex */
@@ -199,8 +199,13 @@ p {
   margin: 50px; */
 }
 
+#contact{
+  text-align: center;
+}
+
 input, textarea{
   width: 100%;
+  font-size: 80%;
 }
 
 input{
