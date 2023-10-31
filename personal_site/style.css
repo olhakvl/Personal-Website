@@ -209,26 +209,10 @@ p {
 
 input, textarea{
   width: 100%;
-  font-size: 80%;
+  font-size: 70%;
 }
 
 input{
   height:40px;
 }
 
-/* Styling for div elements */
-/* div:nth-child(1){
-  grid-area: one;
-  margin: 10px 0px 10px 10px;
-  height: 100px;
-
-} */
-
- /* #fullName{
-  flex-wrap: nowrap;
-} */
-
-/* .otherInfo{
-  flex-direction: column;
-  width: 100%;
-}  */
