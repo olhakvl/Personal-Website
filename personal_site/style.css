@@ -61,6 +61,10 @@ footer {
   text-decoration: none;
 }
 
+#links a:hover {
+  background-color: lightblue;
+}
+
 /* Style the profile photo in home page*/
 #profilePhoto {
   height: 400px;
