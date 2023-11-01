@@ -180,7 +180,7 @@ p {
 }
 
 /* Contact page styling */
-.contactMe{
+#form{
   display: grid;
   grid-template: 
   "one"
@@ -188,8 +188,10 @@ p {
   "three"
   "four";
   gap: 20px;
-  align-items:center;
+  align-items: center;
+  justify-items: center;
   width: 100%;
+
 
 /* flex */
   /* display: flex;
@@ -203,16 +205,17 @@ p {
   margin: 50px; */
 }
 
-#contact{
+#contactTitle{
   text-align: center;
 }
 
 input, textarea{
   width: 100%;
-  font-size: 70%;
+  font-size: 60%;
 }
 
 input{
-  height:40px;
+  height:30px;
 }
+
 
